@@ -1,0 +1,40 @@
+name: Deploy to Cloud Run
+
+on:
+  push:
+    branches: [ main ]
+
+env:
+  PROJECT_ID: project-433b154d-8a22-49e3-bf5
+  REGION: europe-west1
+  SERVICE: bidai
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write          # WIF için ZORUNLU — OIDC token'ı bu izinle alınır
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          project_id: project-433b154d-8a22-49e3-bf5
+          workload_identity_provider: projects/69768111605/locations/global/workloadIdentityPools/github-pool/providers/github-provider
+          service_account: github-deployer@project-433b154d-8a22-49e3-bf5.iam.gserviceaccount.com
+
+      - uses: google-github-actions/setup-gcloud@v2
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy $SERVICE \
+            --source . \
+            --project $PROJECT_ID \
+            --region $REGION \
+            --allow-unauthenticated \
+            --memory 4Gi \
+            --cpu 2 \
+            --timeout 600 \
+            --update-env-vars ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
