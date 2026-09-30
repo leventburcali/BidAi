@@ -1,0 +1,482 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office'  xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40' ><head>
+                <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9"/>
+
+        
+        <style>
+.richtext u
+{
+color:#003399;
+}
+.richtext u p
+{
+color:#003399;
+}
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+h1
+	{margin:0cm;
+	text-align:center;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:bold;
+	text-decoration:underline;
+    margin-top: 1pt; 
+    margin-bottom: 1pt;}
+h2
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:bold;}
+h3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:17.0pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+h4
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+h5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:35.4pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+h6
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:35.4pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:18.0pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:bold;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:35.4pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:windowtext;
+	font-weight:bold;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-name:"Footnote Text\,Dipnot Metni Char Char Char\,Dipnot Metni Char Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+span.MsoEndnoteReference
+	{vertical-align:super;}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:150%;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:bold;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.55pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-16.65pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:200%;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-9.55pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:9.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:windowtext;}
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText
+	{margin-top:0cm;
+	margin-right:396.2pt;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial Narrow","sans-serif";
+	color:windowtext;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	color:black;}
+p.BodyText24, li.BodyText24, div.BodyText24
+	{mso-style-name:"Body Text 24";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.BodyText23, li.BodyText23, div.BodyText23
+	{mso-style-name:"Body Text 23";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:17.0pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+p.BodyTextIndent21, li.BodyTextIndent21, div.BodyTextIndent21
+	{mso-style-name:"Body Text Indent 21";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.4pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+p.BodyTextIndent31, li.BodyTextIndent31, div.BodyTextIndent31
+	{mso-style-name:"Body Text Indent 31";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.4pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.DocumentMap1, li.DocumentMap1, div.DocumentMap1
+	{mso-style-name:"Document Map1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	background:navy;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Tahoma","sans-serif";
+	color:black;}
+p.BodyText31, li.BodyText31, div.BodyText31
+	{mso-style-name:"Body Text 31";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:108%;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.BlockText1, li.BlockText1, div.BlockText1
+	{mso-style-name:"Block Text1";
+	margin-top:0cm;
+	margin-right:.2pt;
+	margin-bottom:0cm;
+	margin-left:7.1pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:63.7pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+p.BodyText22, li.BodyText22, div.BodyText22
+	{mso-style-name:"Body Text 22";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.4pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:windowtext;}
+span.normal1
+	{mso-style-name:normal1;}
+p.3-NormalYaz, li.3-NormalYaz, div.3-NormalYaz
+	{mso-style-name:"3-Normal Yazı";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	color:windowtext;}
+p.BodyText21, li.BodyText21, div.BodyText21
+	{mso-style-name:"Body Text 21";
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:windowtext;}
+ /* Page Definitions */
+p.MsoFooter, li.MsoFooter, div.MsoFooter{margin:0in;margin-bottom:.0001pt;mso-pagination:widow-orphan;tab-stops:center 3.0in right 6.0in;font-size:12.0pt;font-weight:bold;}
+ @page Section1
+	{size:21.0cm 842.0pt;
+    mso-footer: f1;
+	margin:63.8pt 35.4pt 42.55pt 70.9pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+
+</style>
+
+
+            
+                   </head>
+                <body>
+<div class=Section1>
+
+        <p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">			<p/><p class=MsoNormal style="text-align: justify">				<p class=MsoBodyText align=center style='margin-bottom:6.0pt;text-align:center;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:windowtext'><b><span class='richtext'><u style='text-underline:dotted'>Giresun-Bulancak Karagöl Göleti İkmali</u></span></b> <p class=MsoBodyText align=center style='margin-bottom:6.0pt;text-align:center;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:windowtext'>İŞİNE AİT SÖZLEŞME TASARISI</span></p><p/><p class=MsoNormal style="text-align: justify">			<p/><p class=MsoNormal style="text-align: justify">		</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	İKN (İhale Kayıt Numarası): <b><span class='richtext'><u style='text-underline:dotted'>2020/755513</u></span></b><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 1 - Sözleşmenin tarafları </span></b></p> <p/><p class=MsoNormal style="text-align: justify">	<b>1.1.</b> Bu Sözleşme, bir tarafta <b><span class='richtext'><u style='text-underline:dotted'>Bölge Müdürlüğü-22.Bölge Trabzon DİĞER ÖZEL BÜTÇELİ KURULUŞLAR DEVLET SU İŞLERİ GENEL MÜDÜRLÜĞÜ</u></span></b> (bundan sonra İdare olarak anılacaktır) ile diğer tarafta ............................................................ (bundan sonra Yüklenici olarak anılacaktır) arasında aşağıda yazılı şartlar dahilinde akdedilmiştir.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 2 - Taraflara ilişkin bilgiler</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>2.1.</b> İdarenin<p/><p class=MsoNormal style="text-align: justify">		<div class=MsoNormal style='margin-left:35.45pt;text-align:justify'>a) Adı:<b><span class='richtext'><u style='text-underline:dotted'>Bölge Müdürlüğü-22.Bölge Trabzon DİĞER ÖZEL BÜTÇELİ KURULUŞLAR DEVLET SU İŞLERİ GENEL MÜDÜRLÜĞÜ</u></span></b><p/><p class=MsoNormal style="text-align: justify">		b) Adresi:<b><span class='richtext'><u style='text-underline:dotted'>DSI 22.Bölge Müdürlügü 61220 Yalıncak</u></span></b> - <b><span class='richtext'><u style='text-underline:dotted'>Ortahisar</u></span></b> / <b><span class='richtext'><u style='text-underline:dotted'>TRABZON</u></span></b><p/><p class=MsoNormal style="text-align: justify">		c) Telefon numarası:<b><span class='richtext'><u style='text-underline:dotted'>4623341105</u></span></b><p/><p class=MsoNormal style="text-align: justify">		ç) Faks numarası:<b><span class='richtext'><u style='text-underline:dotted'>4623341110</u></span></b><p/><p class=MsoNormal style="text-align: justify">		d) Elektronik posta adresi:<b><span class='richtext'><u style='text-underline:dotted'>proje22@dsi.gov.tr</u></span></b></div><p/><p class=MsoNormal style="text-align: justify">		</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">      <b>2.2.</b> Yüklenicinin<p/><p class=MsoNormal style="text-align: justify">      <div class=MsoNormal style='margin-left:35.45pt;text-align:justify'>a) Adı, Soyadı/Ticaret unvanı: ..................................................<p/><p class=MsoNormal style="text-align: justify">      b) T.C. Kimlik No: ....................................................................<p/><p class=MsoNormal style="text-align: justify">      c) Vergi Kimlik No: ...................................................................<p/><p class=MsoNormal style="text-align: justify">      ç) Yüklenicinin tebligata esas adresi: ................................................<p/><p class=MsoNormal style="text-align: justify">      d) Telefon numarası: ..................................................................<p/><p class=MsoNormal style="text-align: justify">      e) Bildirime esas faks numarası: ......................................................<p/><p class=MsoNormal style="text-align: justify">      f) Bildirime esas elektronik posta adresi: ............................................<p/><p class=MsoNormal style="text-align: justify">      g) Elektronik tebligat adresi :........................................................<p/><p class=MsoNormal style="text-align: justify">      </div><p/><p class=MsoNormal style="text-align: justify">      <b>2.3.</b> Her iki taraf, 2.1. ve 2.2. maddelerinde belirtilen adreslerini tebligat adresi olarak kabul etmişlerdir. Adres değişiklikleri usulüne uygun şekilde karşı tarafa tebliğ edilmedikçe, en son bildirilen adrese yapılacak tebliğ, ilgili tarafa yapılmış sayılır. Yüklenicinin ortak girişim olması durumunda, pilot ortak veya koordinatör ortağa yapılan tebligatlar ortak girişimi oluşturan bütün ortaklara yapılmış sayılır.<p/><p class=MsoNormal style="text-align: justify">      <b>2.4.</b> Taraflar, yazılı tebligatı daha sonra süresi içinde yapmak kaydıyla, kurye, faks veya elektronik posta gibi diğer yollarla da bildirim yapabilirler.<p/><p class=MsoNormal style="text-align: justify">    </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 3 - İşin adı, yapılma yeri, niteliği, türü ve miktarı</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>3.1.</b> İşin adı : <b><span class='richtext'><u style='text-underline:dotted'>Giresun-Bulancak Karagöl Göleti İkmali</u></span></b> 	<p/><p class=MsoNormal style="text-align: justify">	<b>3.2.</b> İşin yapılma yeri: <b><span class='richtext'><u style='text-underline:dotted'>Giresun İli, Bulancak ilçesi sınırları içerisinde olup, Naltaş yaylası Atgirmez Deresi üzerinde </u></span></b>	<p/><p class=MsoNormal style="text-align: justify">	<b>3.3.</b> İşin niteliği, türü ve miktarı: <p/><p class=MsoNormal style="text-align: justify">	<p/><p class=MsoNormal style="text-align: justify">	<b><span class='richtext'><u style='text-underline:dotted'><p class=MsoNormal style='text-align:justify;page-break-before:always'><o:p>&nbsp;</o:p></p> <style type="text/css">  .kisimlar td { word-wrap: break-word;word-break:break-all; }  </style> <table width="100%" cellpadding="0" cellspacing="0" border="1" class="kisimlar" > <tr> <td width="10%" valign="top"><b>Sıra No</b></td> <td width="20%" valign="top"><b>İş Kalemi No</b></td> <td width="35%" valign="top"><b>Açıklama</b></td> <td width="20%" valign="top"><b>Birimi</b></td> <td valign="top"><b>Miktarı</b></td> </tr> <tr> <td> 1</td> <td> P-01</td> <td> Her türlü imalatta, yollarda, ocakta veya ariyette, makine ile her türlü ve her derinlikte ki zeminde kazı yapılması</td> <td> metreküp</td> <td> 165.000</td> </tr> <tr> <td> 2</td> <td> P-02</td> <td> Açıkta Her Beton Sınıfında (Beton+Betonarme) Beton Yapılması</td> <td> metreküp</td> <td> 48.000</td> </tr> <tr> <td> 3</td> <td> P-03</td> <td> İmalatlara Giren Çimento Bedeli</td> <td> ton</td> <td> 16.000</td> </tr> <tr> <td> 4</td> <td> P-04</td> <td> Her çaptaki beton çelik çubuğunun (nervürlü) temini,nakliyesi,yükleme ve boşaltılması,projesine göre bükülmesi ve yerine konulması</td> <td> ton</td> <td> 70</td> </tr> <tr> <td> 5</td> <td> P-05</td> <td> PVC Su Tutucuların Temini ve Yerine Konulması</td> <td> kilogram</td> <td> 10.000</td> </tr> <tr> <td> 6</td> <td> P-06</td> <td> Çelik Kaplama ve Cebri Boruların İmali ve Yerine Konulması</td> <td> kilogram</td> <td> 15.000</td> </tr> <tr> <td> 7</td> <td> P-07</td> <td> Demir Kapı, Kepenk, Merdiven, Korkuluklar ve Basit Demir İşleri</td> <td> kilogram</td> <td> 2.500</td> </tr> <tr> <td> 8</td> <td> P-08</td> <td> Enjeksiyon Delikleri Açılması</td> <td> metre</td> <td> 1.800</td> </tr> <tr> <td> 9</td> <td> P-09</td> <td> Enjeksiyon Yapılması</td> <td> metreküp</td> <td> 500</td> </tr> <tr> <td> 10</td> <td> P-10</td> <td> Sondaj ve Enjeksiyon Kontrol Kuyularında Basınçlı Su Deneyinin Yapılması</td> <td> adet</td> <td> 90</td> </tr> <tr> <td> 11</td> <td> P-11</td> <td> Yollarda Alt Temel ve Temel Hazırlanması ve Yerine Konulması</td> <td> metreküp</td> <td> 12.000</td> </tr> <tr> <td> 12</td> <td> P-12</td> <td> Gölet ve Yol Kazı Malzemelerinin Nakli</td> <td> metreküp</td> <td> 165.000</td> </tr> <tr> <td> 13</td> <td> P-13</td> <td> Dipsavak Vanaları, Kapakları ve kumanda mekanizmaları Temini ve Montajı</td> <td> komple</td> <td> 1</td> </tr> <tr> <td> 14</td> <td> P-14</td> <td> Baraj Ölçüm Teçhizatı ve Teferruatının Temini ve Yerine Konulması</td> <td> komple</td> <td> 1</td> </tr> <tr> <td> 15</td> <td> P-15</td> <td> Yollarda Taş Dolgu Yapılması</td> <td> metreküp</td> <td> 2.000</td> </tr> <tr> <td> 16</td> <td> P-16</td> <td> Kilometrik Bedelli YG(OG) Dağıtım Hattı Yapılması İşi</td> <td> kilometre</td> <td> 8</td> </tr> <tr> <td> 17</td> <td> P-17</td> <td> Q500mm koruge kanalizasyon boruları (HDPE ve PP esaslı)(TS EN 13476-1)(SN 4)</td> <td> metre</td> <td> 100</td> </tr> <tr> <td> 18</td> <td> P-18</td> <td> Ocak taşından (% 40 'si 0,400-2,000 , % 60 'ı 2,000-6,000 ton kategorideki ) istifli taş tahkimat yapılması</td> <td> metreküp</td> <td> 2.000</td> </tr> <tr> <td> 19</td> <td> P-19</td> <td> Vana Odası Trafo, Güç Dağıtımı ve Aydınlatma Yapılması, Derivasyon Tüneli Aydınlatma ve Priz Tesisatı Yapılması İşi</td> <td> komple</td> <td> 1</td> </tr> <tr> <td> 20</td> <td> P-20</td> <td> Silt Geçidinde Kullanılacak Olan Her Türlü Kapak, Gömülü Elemanlar, Yakalama Kirişleri ve Izgaralar</td> <td> kilogram</td> <td> 10.000</td> </tr> <tr> <td> 21</td> <td> P-21</td> <td> Her Türlü Ölçüm, Harita, Aplikasyon, Uygulama, Detay ve İş Sonu Projeleri Yapımı</td> <td> komple</td> <td> 1</td> </tr> <tr> <td> 22</td> <td> P-22</td> <td> Oto korkuluk yapılması</td> <td> metre</td> <td> 5.970</td> </tr> </table></u></span></b><b><span class='richtext'><u style='text-underline:dotted'></u></span></b><b><span class='richtext'><u style='text-underline:dotted'></u></span></b></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 4 - Sözleşmenin dili</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>4.1.</b> Sözleşmenin dili Türkçe'dir.<p/><p class=MsoNormal style="text-align: justify">					  </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 5 - Tanımlar</span></b></p>   <p/><p class=MsoNormal style="text-align: justify">	<b>5.1.</b> Bu Sözleşmenin uygulanmasında, 4734 sayılı Kamu İhale Kanunu ve 4735 sayılı Kamu İhale Sözleşmeleri Kanunu ile Yapım İşleri Genel Şartnamesinde ve ihale dokümanında oluşturan diğer belgelerde yer alan tanımlar geçerlidir. <b><span class='richtext'><u style='text-underline:dotted'></u></span></b></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	              <p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 6 - Sözleşmenin türü ve bedeli</span></b></p><p/><p class=MsoNormal style="text-align: justify">	              <b>6.1.</b> Bu Sözleşme, birim fiyat sözleşme olup, ihale dokümanında yer alan <b><span class='richtext'><u style='text-underline:dotted'>kesin projeye/projelere</u></span></b> ve bunlara ilişkin mahal listeleri ile birim fiyat tariflerine dayalı olarak, İdarece hazırlanmış birim fiyat teklif cetvelinde yer alan her bir iş kaleminin miktarı ile bu iş kalemleri için yüklenici tarafından teklif edilen birim fiyatların çarpımı sonucu bulunan tutarların toplamı olan ..................................................... (rakam ve yazıyla) bedel üzerinden akdedilmiştir. <p/><p class=MsoNormal style="text-align: justify">	              <b>6.2.</b> Yapılan işlerin bedellerinin ödenmesinde, birim fiyat teklif cetvelinde yüklenicinin teklif ettiği ve sözleşme bedelinin tespitinde kullanılan birim fiyatlar ile varsa sonradan tespit edilen yeni birim fiyatlar esas alınır.<p/><p class=MsoNormal style="text-align: justify">				              </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 7 - Sözleşme bedeline dahil olan giderler</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>7.1.</b> Taahhüdün yerine getirilmesine ilişkin her türlü vergi, resim, harç, yapı kullanım izin belgesi giderleri vb  giderler ile ulaşım, sözleşme kapsamındaki her türlü sigorta giderleri sözleşme bedeline dahildir. İlgili mevzuatı uyarınca hesaplanacak Katma Değer Vergisi sözleşme bedeline dahil olmayıp, İdare tarafından Yükleniciye ödenir.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 8 - Sözleşmenin ekleri</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>8.1.</b> Sözleşme, ekindeki ihale dokümanı ve diğer belgelerle bir bütündür, İdareyi ve Yükleniciyi bağlar. Ancak, Sözleşme hükümleri ile ihale dokümanını oluşturan belgelerdeki hükümler arasında çelişki veya farklılık olması halinde, ihale dokümanında yer alan hükümler esas alınır.<p/><p class=MsoNormal style="text-align: justify">	<b>8.2.</b>İhale dokümanını oluşturan belgeler<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<b>8.2.1.</b> İhale dokümanını oluşturan belgeler arasındaki öncelik sıralaması aşağıdaki gibidir<p/><p class=MsoNormal style="text-align: justify">		<div class=MsoNormal style='margin-left:35.45pt;text-align:justify'>1-Yapım İşleri Genel Şartnamesi<p/><p class=MsoNormal style="text-align: justify">		2-İdari Şartname,<p/><p class=MsoNormal style="text-align: justify">		3-Sözleşme Tasarısı,<p/><p class=MsoNormal style="text-align: justify">		4-Birim Fiyat Tarifleri ve Cetveli,<p/><p class=MsoNormal style="text-align: justify">		5-Mahal Listesi,<p/><p class=MsoNormal style="text-align: justify">		6-Özel Teknik Şartname,<p/><p class=MsoNormal style="text-align: justify">		7-Genel Teknik Şartname,<p/><p class=MsoNormal style="text-align: justify">		8-Ön / Kesin Projeler,<p/><p class=MsoNormal style="text-align: justify">		9-Açıklamalar (varsa),<p/><p class=MsoNormal style="text-align: justify">	    10-Diğer Ekler.</div><p/><p class=MsoNormal style="text-align: justify">				</span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<b>8.3.</b> Varsa, zeyilnameler ait oldukları dokümanın öncelik sırasına sahiptir.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 9 - İşe başlama ve bitirme tarihi</span></b></p> <p/><p class=MsoNormal style="text-align: justify">	<b>9.1.</b> Sözleşmenin imzalandığı tarihten itibaren <b><span class='richtext'><u style='text-underline:dotted'>10</u></span></b> (<b><span class='richtext'><u style='text-underline:dotted'>On</u></span></b> ) gün içinde Yapım İşleri Genel Şartnamesi hükümlerine göre yer teslimi yapılarak işe başlanır. <p/><p class=MsoNormal style="text-align: justify">	<b>9.2.</b> Yüklenici taahhüdün tümünü, işyeri teslim tarihinden itibaren <b><span class='richtext'><u style='text-underline:dotted'>1000</u></span></b> (<b><span class='richtext'><u style='text-underline:dotted'>Bin</u></span></b>) gün içinde tamamlayarak geçici kabule hazır hale getirmek zorundadır. Sürenin hesaplanmasında; havanın fen noktasından çalışmaya uygun olmayan  dönemi ile resmi tatil günleri dikkate alındığından, bu nedenlerle ayrıca süre uzatımı verilmez.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<b>9.3.</b> Bu madde boş bırakılmıştır.<p/><p class=MsoNormal style="text-align: justify">				</span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<b>9.4.</b> Bu işyerinde havanın fen noktasından çalışmaya uygun olmadığı günler <b><span class='richtext'><u style='text-underline:dotted'>01.01</u></span></b> - <b><span class='richtext'><u style='text-underline:dotted'>15.03</u></span></b> tarihleri arasındaki <b><span class='richtext'><u style='text-underline:dotted'>75</u></span></b> (<b><span class='richtext'><u style='text-underline:dotted'>YetmişBeş</u></span></b>) gündür. Ancak, işin bitiminde bu devre dikkate alınmaz ve İdare Yükleniciden teknik şartları yerine getirerek işi tamamlaması için bu dönemde çalışmasını isteyebilir. Zorunlu nedenlerle ertesi yıla sari hale gelen işlerde, çalışmaya uygun olmayan devre, ödenek durumuna ve imalatın cinsine göre dikkate alınır.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">       <b>9.5.</b> Yüklenicinin sözleşmede belirlenmiş olan süre içinde yer teslimi için hazır bulunmaması halinde bu durum idare tarafından görevlendirilen yapı denetim görevlisinin de bulunduğu komisyon tarafından süre bitiminde tutanak altına alınır ve işin süresi başlar.<p/><p class=MsoNormal style="text-align: justify">     </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 10-Teminata ilişkin hükümler </span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>10.1.</b> Kesin teminat<p/><p class=MsoNormal style="text-align: justify">		<b>10.1.1.</b> Yüklenici,..................................................... (rakam ve yazıyla) kesin teminat vermiştir.<p/><p class=MsoNormal style="text-align: justify">		<b>10.1.2.</b> Teminatın, teminat  mektubu şeklinde verilmesi halinde; kesin teminat mektubunun süresi  ../../.... tarihine kadardır. Kanunda veya sözleşmede belirtilen haller ile cezalı çalışma nedeniyle kesin kabulün gecikeceğinin anlaşılması durumunda teminat mektubunun süresi de işteki gecikmeyi karşılayacak şekilde uzatılır.<p/><p class=MsoNormal style="text-align: justify">	<b>10.2.</b> Ek kesin teminat<p/><p class=MsoNormal style="text-align: justify">		<b>10.2.1.</b> Fiyat farkı hesaplanmasının öngörülmesi halinde, fiyat farkı olarak ödenecek bedelin ve/veya iş artışı olması halinde bu artış tutarının % 6'sı oranında teminat olarak kabul edilen değerler üzerinden ek kesin teminat alınır. Fiyat farkı olarak ödenecek bedel üzerinden hesaplanan ek kesin teminat hakedişlerden kesinti yapılmak suretiyle de karşılanabilir.<p/><p class=MsoNormal style="text-align: justify">		<b>10.2.2.</b> Ek kesin teminatın teminat mektubu olması halinde, ek kesin teminat mektubunun süresi, kesin teminat mektubunun süresinden daha az olamaz.<p/><p class=MsoNormal style="text-align: justify">	<b>10.3.</b> Yüklenici tarafından verilen kesin teminat ve ek kesin teminat, 4734 sayılı Kanunun 34 üncü maddesinde belirtilen değerlerle değiştirilebilir. Her ne suretle olursa olsun, İdarece alınan teminatlar haczedilemez ve üzerine ihtiyati tedbir konulamaz.<p/><p class=MsoNormal style="text-align: justify">	<b>10.4.</b> Kesin teminatın ve ek kesin teminatın geri verilmesi <p/><p class=MsoNormal style="text-align: justify">		<b>10.4.1.</b> Kesin teminatın ve ek kesin teminatın geri verilmesi hususunda Yapım İşleri Genel Şartnamesindeki hükümler uygulanır.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 11 - Ödeme yeri ve şartları</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>11.1.</b> Yüklenicinin hakedişi <b><span class='richtext'><u style='text-underline:dotted'>DSİ 22. Bölge(Trabzon) Muhasebe Şube Müdürlüğünce </u></span></b> ödenir.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">                   <b>11.2.</b> Hakediş raporları, bu Sözleşmenin eki olan Yapım işleri Genel Şartnamesinde düzenlenen esaslar çerçevesinde, kanuni kesintiler de yapılarak her ayın ilk beş iş günü içinde düzenlenir. Hakediş raporları yüklenici veya vekili tarafından imzalanıp idareye verildiği tarihten başlamak üzere İdarece en geç otuz gün içinde onaylandıktan sonra otuz gün içinde tahakkuka bağlanarak on beş gün içinde ödenir.<p/><p class=MsoNormal style="text-align: justify">                   Bu iş için sözleşme bedeli üzerinden;<p/><p class=MsoNormal style="text-align: justify">                   <b><span class='richtext'><u style='text-underline:dotted'><table border="1" cellpadding="1" cellspacing="1" style="width:500px">	<tbody>		<tr>			<td>2021</td>			<td>%10</td>		</tr>		<tr>			<td>2022</td>			<td>%25</td>		</tr>		<tr>			<td>2023</td>			<td>%25</td>		</tr>		<tr>			<td>2024</td>			<td>%25</td>		</tr>		<tr>			<td>2025</td>			<td>%15</td>		</tr>	</tbody></table><p>&nbsp;</p></u></span></b><p/><p class=MsoNormal style="text-align: justify">                   ödenek tespit olunmuştur.Yüklenici yapım işi için sözleşmede belirtilen ödenekleri iş programına uygun şekilde imalat ve/veya ihzarat olarak sarf etmek zorundadır.<p/><p class=MsoNormal style="text-align: justify">                 </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<b>11.3.</b> Yukarıda belirtilen yılı ödenekleri, toplam sözleşme bedeli içinde kalmak kaydıyla Yüklenicinin de görüşü alınarak artırılabilir. Yüklenici artırılan ödenekleri, onaylanan revize iş programına uygun şekilde yılı içinde imalat ve/veya ihrazat olarak gerçekleştirmek zorundadır.<p/><p class=MsoNormal style="text-align: justify">	<b>11.4.</b> İdarenin talebi olmaksızın Yüklenici iş programına nazaran daha fazla iş yaparsa, İdare bu fazla işin bedelini imkan bulduğu takdirde öder.<p/><p class=MsoNormal style="text-align: justify">	<b>11.5.</b> Yüklenici, her türlü hakediş ve alacaklarını İdarenin yazılı izni olmaksızın başkalarına temlik edemez. Temliknamelerin noter tarafından düzenlenmesi ve İdarece istenilen kayıt ve şartları taşıması gerekir.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'></span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">            <p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 12 - İş programı</span></b></p><p/><p class=MsoNormal style="text-align: justify">					  <b>12.1.</b> Yüklenici, iş programını yer tesliminin yapıldığı tarihten itibaren on beş gün içinde, sözleşme bedeli üzerinden imalatların niteliği, teknik özelliği ve yapım süreleri de göz önünde bulundurulmak suretiyle, gün bazında yapılması gereken iş tutarlarını hesaplayarak, ödeneklerin yıllara göre dağılım esasları ile varsa işin kısımları ile bitirme tarihlerini de dikkate alarak İdarece verilen örneklere uygun olarak hazırlar. Bu programda ayrıca; iş kalemleri, aylık imalat ve iş miktarları, (ihzarat ödemesi öngörülen işlerde ihzaratı,) yıllık ödenek dilimleri ve bunların aylara dağılımı gösterilir ve iş programı en az dört nüsha hazırlanarak onaylanmak üzere İdareye teslim edilir.<p/><p class=MsoNormal style="text-align: justify">          </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<b>12.2.</b> İdare, iş programını verildiği tarihten başlamak üzere <b><span class='richtext'><u style='text-underline:dotted'>10</u></span></b> gün içinde onaylar.<p/><p class=MsoNormal style="text-align: justify">	<b>12.3.</b> İş programının hazırlanması ve uygulanması ile ilgili diğer hususlarda Yapım İşleri Genel Şartnamesi hükümleri uygulanır.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 13 - Avans verilmesi şartları ve miktarı</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>13.1.</b> Bu iş için avans verilmeyecektir.		<p/><p class=MsoNormal style="text-align: justify">				</span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 14 - Fiyat farkı ödenmesi ve hesaplanması şartları</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>14.1.</b> Yüklenici, gerek sözleşme süresi gerekse uzatılan süre içinde, sözleşmenin tamamen ifasına kadar, vergi, resim, harç ve benzeri mali yükümlülüklerde artışa gidilmesi veya yeni mali yükümlülüklerin ihdası gibi nedenlerle fiyat farkı verilmesi talebinde bulunamaz.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<b>14.2.</b> Fiyat farkı hesaplanacaktır.<p/><p class=MsoNormal style="text-align: justify">	<b><span class='richtext'><u style='text-underline:dotted'><div align='left'>4734 Sayılı Kamu İhale Kanununa Göre İhalesi Yapılacak Olan yapım işleriyle ilgili olarak, Yapım İşlerinde Uygulanacak Fiyat Farkına İlişkin Esasların fiyat farkının hesabı ve ödenmesine ilişkin hükümleri (4-12 maddeler):<br />Tanımlar<br />MADDE 4- (1) Bu Esaslarda geçen;<br />a) Anahtar teslimi götürü bedel: Uygulama projeleri ve bunlara ilişkin mahal listelerine dayalı olarak, işin tamamı için ihale üzerinde bırakılan istekli tarafından teklif edilen ve idarece uygun görülerek sözleşmeye bağlanan ödemeye esas toplam bedeli,<br />b) Birim fiyat: Ön veya kesin projelere ve bunlara ilişkin mahal listeleri ile birim fiyat tariflerine dayalı olarak, idarece hazırlanmış cetvelde yer alan her bir iş kalemi için ihale üzerinde bırakılan istekli tarafından teklif edilen ve idarece uygun görülerek sözleşmeye bağlanan ödemeye esas fiyatı,<br />c) Gün: Takvim gününü,<br />ç) Güncel endeks: Uygulama ayına ait endeksi,<br />d) İdare: 4734 sayılı Kanun kapsamındaki kurum ve kuruluşları,<br />e) Fiyat farkı: Birim fiyatlı sözleşmelerde, uygulama ayı içinde gerçekleşen imalat iş kalemleri ve ihzarat için; anahtar teslimi götürü bedel sözleşmelerde ise uygulama ayı içinde ilerleme yüzdelerine göre gerçekleşen imalat iş grupları için, bu Esaslara göre ödenecek veya kesilecek bedeli,<br />f) İş: 4734 sayılı Kanun kapsamındaki her türlü yapım işini,<br />g) İş grubu: Anahtar teslimi götürü bedel üzerinden sözleşmeye bağlanan işlerde, ara veya kesin ödemelere ilişkin iş kalemleri toplamından oluşan ve işin ilerleme yüzdelerini gösteren ödemeye esas iş kalemlerini,<br />ğ) İş kalemi: Birim fiyat üzerinden sözleşmeye bağlanan işlerde, teknik ve özel yapım şartları belirtilen, birim fiyat tarifi bulunan ve sözleşmesinde bedeli gösterilen veya sonradan yeni birim fiyatı yapılan ödemeye esas kalemleri,<br />h) Sözleşme: Birim fiyat, anahtar teslimi götürü bedel veya karma teklif almak suretiyle Türk parası cinsinden idare ile yüklenici arasında imzalanan yazılı anlaşmayı,<br />ı) Temel endeks: İhale tarihinin içinde bulunduğu aya, çerçeve anlaşma ihalelerinde ise münferit sözleşme için teklif vermeye davetin yapıldığı tarihin içinde bulunduğu aya ait endeksi,<br />i) Uygulama ayı: İş programına uygun olarak işlerin gerçekleştirilmesi gereken ayı,<br />j) Yıl: Takvim yılını,<br />ifade eder.<br /><br /><br />Fiyat farkı hesabı<br />MADDE 5- (1) Türk parası cinsinden sözleşmeye bağlanan yapım işlerine ilişkin fiyat farkı aşağıdaki formüle göre hesaplanır:<br /><br />F = An x B x ( Pn - 1 ) <br /><br />İn Çn Dn Yn Kn Gn Mn<br />Pn = [ a ?? + b1 ?? + b2 ?? + b3 ?? + b4 ?? + b5 ?? + c ?? ]<br />İ0 Ç0 D0 Y0 K0 G0 M0<br /><br />(2) Formülde yer alan;<br />a) F: Fiyat farkını (TL),<br />b) An: İlk geçici hakedişte (n=1) olmak üzere (n) inci hak edişte; birim fiyatlı işlerde uygulama ayında gerçekleşen iş kalemleri ve ihzarat miktarlarının sözleşme birim fiyatlarıyla çarpılması sonucu bulunan tutarı (TL), anahtar teslimi götürü bedel işlerde ise uygulama ayında gerçekleşen ilerleme yüzdesiyle sözleşme bedelinin çarpılması sonucu bulunan tutarı (TL),<br />c) B: 0,90 sabit katsayısını,<br />ç) Pn: İlk geçici hakedişte (n=1) olmak üzere (n) inci hakedişte, fiyat farkı hesabında kullanılan temel endeksler ve güncel endeksler ile a, b1, b2, b3, b4, b5 ve c değerlerinin ağırlık oranları temsil katsayılarının yukarıdaki formüle uygulanması sonucu bulunan fiyat farkı katsayısını,<br />d) a: İşçilik ağırlık oranını temsil eden sabit katsayıyı,<br />e) b1: Metalik olmayan diğer mineral ürünlerinin ağırlık oranını temsil eden sabit katsayıyı,<br />f) b2: Demir ve çelik ürünlerinin ağırlık oranını temsil eden sabit katsayıyı,<br />g) b3: Katı veya sıvı yakıtların ağırlık oranını temsil eden sabit katsayıyı,<br />ğ) b4: Ağaç ve mantar ürünlerinin ağırlık oranını temsil eden sabit katsayıyı,<br />h) b5: Diğer malzemelerin ağırlık oranını temsil eden sabit katsayıyı,<br />ı) c: Makine ve ekipmana ait amortismanın oranını temsil eden sabit katsayıyı,<br />ifade eder.<br />(3) İhale dokümanında gösterilen sabit katsayılar, sözleşmenin uygulanması sırasında hiçbir gerekçe ile değiştirilemez.<br />(4) Formüldeki temel endeksler (o) ve güncel endeksler (n)?den;<br />a) İo, İn: İşçilik için, Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Tüketici Fiyatları Endeksi Harcama Gruplarına Göre Endeks Sayıları Tablosunun ?Genel? sütunundaki sayıyı,<br />b) Ço, Çn: Metalik olmayan mineral ürünleri için, Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun 26 numaralı ?Metalik Olmayan Diğer Mineral Ürünleri?, 261 numaralı ?Cam ve Cam Ürünleri?, 262 numaralı ?İnşaat Amaçlı Olanlardan Başka Ateşe Dayanıklı Olmayan Seramik Ürünler; Ateşe Dayanıklı Seramik Ürünler?, 263 numaralı ?Seramik Karo ve Kaldırım Taşları?, 264 numaralı ?Fırınlanmış Kilden Kiremit, Briket, Tuğla ve İnşaat Malzemeleri?, 265 numaralı ?Çimento, Kireç ve Sıva Alçısı?, 266 numaralı ?Beton, Sıva Alçı ve Çimentodan Yapılan Ürünler?, 267 numaralı ?Bina Taşları ve Bunlarla İlgili Nesnelerin Süslenmesi, Kesilmesi, Şekillendirilmesi ve Tamamlanması? sütunundaki sayılardan ilgisine göre uygun olan birini veya birkaçını,<br />c) Do, Dn: Demir ve çelik ürünleri için, Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun 27 numaralı ?Ana Metaller?, 271 numaralı ?Esas Demir, Çelik ve Demir Alaşımları?, 272 ?Borular?, 273 numaralı ?Diğer İlk İşlenmiş Demir ve Çelik Ürünleri?, 274 numaralı ?Değerli Ana Metaller ve Diğer Demirli Olmayan Metaller?, 275 numaralı ?Metal Döküm Hizmetleri? sütunundaki sayılardan ilgisine göre uygun olan birini veya birkaçını,<br />ç) Yo, Yn: Katı ve sıvı yakıtlar için, Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun 23 numaralı ?Kok Kömürü ve Rafine Edilmiş Petrol Ürünleri?, 231 numaralı ?Kok Fırını Ürünleri?, 232 numaralı ?Rafine Edilmiş Petrol Ürünleri? sütunundaki sayılardan ilgisine göre uygun olan birini veya birkaçını,<br />d) Ko, Kn: Ağaç ve mantar ürünleri için, Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun 20 numaralı ?Ağaç ve Mantar Ürünleri (Mobilya Hariç); Hasır ve Örgü Malzemelerinden Yapılan Eşyalar?, 201 numaralı ?Kereste - Biçilmiş, Planyalanmış veya Emprenye Edilmiş?, 202 numaralı ?Ahşap Plaka; Kontraplak, Yonga Levha, Sunta, Diğer Pano ve Tahtalar? sütunundaki sayılardan ilgisine göre uygun olan birini veya birkaçını,<br />e) Go, Gn: İhale konusu yapım işi kapsamında yer alan diğer malzemeler için fiyat farkı hesabına esas sayı veya sayıları,<br />f) Mo, Mn: Makine ve ekipmana ait amortisman için, Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun 29 numaralı ?Makine ve Teçhizat b.y.s.?, 291 numaralı ?Uçak, Motorlu Taşıt ve Motosiklet Motorları Hariç Olmak Üzere Mekanik Güç Kullanımı ve Üretimi İçin Makineler?, 292 numaralı ?Diğer Genel Amaçlı Makineler?, 293 numaralı ?Tarım ve Ormancılık Makineleri?, 295 numaralı ?Diğer Özel Amaçlı Makineler? sütunundaki sayılardan ilgisine göre uygun olan birini veya birkaçını,<br />ifade eder.<br />(5) Yukarıdaki sayılardan Go ve Gn için idarece; Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yılı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosundan alt sektörler itibarıyla işin niteliği ve gereklerine uygun olan sütun veya sütunlar tespit edilerek hangi sütun veya sütunlardaki sayı veya sayıların kullanılacağının ihale dokümanında belirtilmesi zorunludur. İdarelerin bu tespiti yapamamaları veya yapmamaları durumlarda ise Go ve Gn endeksleri için Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun ?ÜFE Genel? sütunundaki sayılar esas alınır.<br />(6) İdare tarafından, işin niteliğine ve işte kullanılan girdilere uygun biçimde a, b1, b2, b3, b4, b5 ve c için toplamı bire (1.00) eşit olacak şekilde katsayılar belirlenerek ihale dokümanında gösterilir.<br />(7) İşin nitelik ve kapsamına göre imalatta kullanılacak malzemelerin niteliği ile iş programına göre malzemenin kullanılacağı safha dikkate alınarak, fiyat farkı hesabına esas b1, b2, b3, b4 ve b5 değerleri için imalatın farklı aşamalarında uygulanmak üzere farklı endeksler belirlenebileceği gibi, bu değerlerin her biri için yukarıda sayılanlar arasından aynı anda birden fazla endeks de belirlenebilir. Ağırlık oranını gösteren sabit katsayılarından biri, birkaçı veya tamamı kullanılarak, yapım işinin farklı bölümleri/aşamaları için toplamları bire (1.00) eşit olacak şekilde farklı fiyat farkı katsayıları belirlenebilir.<br />(8) Yukarıdaki endekslerden birinin veya birkaçının sözleşmenin uygulanması sırasında Türkiye İstatistik Kurumu tarafından değiştirilmesi halinde, değiştirilen endekse eşdeğer yeni bir endeks belirlenir ise bu endeks; yeni bir endeks belirlenmez ise, Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun ?ÜFE Genel? sütunundaki sayı, esas alınarak fiyat farkı hesaplanır.<br /><br /><br />Uygulama esasları<br />MADDE 6- (1) Bu Esaslara tabi yapım işi ihalelerinde fiyat farkı uygulanabilmesi için, söz konusu işlerin ihalelerine ilişkin idari şartname ve sözleşmelerde, bu Esaslara göre fiyat farkı hesaplanacağının belirtilmiş olması gerekir. Sözleşmelerde yer alan fiyat farkına ilişkin esas ve usullerde sözleşme imzalandıktan sonra değişiklik yapılamaz.<br />(2) Fiyat farkı uygulanan işlerde, zorunlu nedenler dışında, hakedişlerin uygulama ayından sonraki ayın ilk beş iş günü içerisinde ve uygulama ayına ait endeksler belli olduktan sonra düzenlenmesi esastır. Uygulama ayına ait endeksler belli olmadan hakedişin düzenlendiği hallerde, fiyat farkı hesabı hakedişle birlikte yapılmaz, uygulama ayına ait endeksler belli olduktan sonra ayrıca hesaplanır.<br />(3) Bu Esasların uygulanması sonucu ilave olarak ödenecek ya da kesilecek tutarlar fiyat farkı olup, yüklenici ile idare arasında imzalanan sözleşme bedelini değiştirmez.<br />(4) Bedeli yabancı para birimi cinsinden veya kur farkları ayrıca hesaplanmak suretiyle yabancı para birimi karşılığı Türk parası ile ödenen işler için bu Esaslar uygulanmaz. Türk parası ile yabancı para birimi üzerinden ayrı ayrı olmak üzere toplam bedel üzerinden sözleşme yapılması halinde sözleşmenin Türk parası üzerinden ödeme yapılan kısmı için fiyat farkı hesaplanacağı öngörülebilir.<br />(5) Bu Esaslara göre hesaplanan fiyat farkları, fiyat farkı ödenmesine konu olabilecek tüm fiyat artışlarını kapsar. Ancak, yüklenicinin kullandığı farklı yapım teknikleri, makine, ekipman ve malzeme ile işçiliğin cins ve miktarı, Türk parasının yabancı paralar karşısında değer kaybetmesi veya kazanması, yurtdışından temin edilen malzemenin menşei ülkede fiyatının değişmesi ve benzeri diğer nedenlerle fiyat farkı hesaplanamaz.<br />(6) Avans ödenen işlerde, hakedişten mahsup edilen avans tutarı, formüldeki (An) tutarından düşüldükten sonra fiyat farkı hesaplanır. Fiyat farkı katsayısının (Pn) birden küçük olması halinde, (An) tutarından avans miktarı düşülmez.<br />(7) Karma sözleşmelerde, işin anahtar teslimi götürü bedel ve birim fiyatlı bölümleri için ayrı ayrı fiyat farkı hesaplanır.<br />(8) Sözleşmede birim fiyatı bulunmayan ve Yapım İşleri Genel Şartnamesine göre sözleşme yılı fiyatı tespit edilemeyen iş kalemi için yeni birim fiyat yapılması halinde, bu fiyat, uygulama ayının rayiçlerine ve şartlarına göre tespit edilir. Belirlenen bu yeni birim fiyat, uygulama ayı fiyat farkı katsayısına (Pn) bölünerek iş kaleminin sözleşme yılı birim fiyatı tespit edilir ve fiyat farkı hesabı bu fiyat esas alınarak yapılır.<br />(9) Birim fiyat üzerinden sözleşmeye bağlanan işlerde, herhangi bir imalat için yapılan ara veya kesin metraj sonucu bir imalatın miktarında artma ya da azalma tespit edildiği takdirde, artan ya da azalan miktar (imalat hangi ayda yapılmış olursa olsun) geçici kabul itibar tarihini geçmemek üzere, artış ya da azalışın kesinleştiği ayın fiyat farkı katsayısı (Pn) esas alınarak fiyat farkı hesaplanır.<br />(10) Sözleşme süresi bitmiş ve idarenin izni ile cezalı çalışılan işlerde, fiyat farkı hesaplanırken süre bitim tarihinde uygulanmakta olan (Pn) değeri ile cezalı çalışılan süredeki (Pn) değerinden düşük olanı esas alınır.<br />(11) Anahtar teslimi götürü bedel işlerde hakedişlerden kesilerek tutulan kısım ile birim fiyatlı işlerde tamamlanmakla birlikte kesin hesabı idareye verilmemiş işlerde hakedişe dahil edilmeyen kısım için, ilgili hakedişin fiyat farkının hesaplanmasında, bu kısımlara ilişkin tutarlar da dikkate alınır.<br />(12) Akaryakıt girdisinin nev?ine uygulanan Özel Tüketim Vergisinde değişiklik gerçekleşmesi halinde, bu değişikliğin bayi satış fiyatlarında yol açtığı artış veya azalış dikkate alınarak, b3 katsayısının hesaplanmasına esas alınan miktarın uygulama ayına karşılık gelen kısmı için bu vergide birim başına meydana gelen değişiklik miktarı, 5 inci maddeye göre yapılan fiyat farkı hesabından bağımsız olarak ayrıca ödenir veya kesilir.<br /><br /><br />İş programı ve ödenek dilimi<br />MADDE 7- (1) Sözleşme imzalandıktan sonra iş kalemlerinin, aylık imalatın, ihzaratın ve yıllık ödenekler ile bunların aylara dağılımını gösteren ayrıntılı bir iş programı hazırlanarak idarenin onayına sunulur.<br />(2) Herhangi bir aya ait iş programına yüklenicinin kusuru nedeniyle uyulmadığı takdirde, daha sonraki aylarda yapılacak imalatlarda, imalat miktarı iş programına uygun hale gelinceye kadar, fiyat farkı hesaplanırken, iş programına göre gerçekleştirilmesi gereken ayın endeksi ile işin fiilen gerçekleştirildiği ayın endeksinden düşük olanı esas alınır.<br />(3) Havanın fen noktasından çalışmaya uygun olmadığı dönemde, idarenin izniyle yüklenici tarafından teknik şartlar yerine getirilerek işe devam edilmesi veya yüklenicinin iş programında öngörülenden daha fazla imalat yapması halinde, imalatın fiilen yapıldığı ay esas alınarak, bu dönemde gerçekleştirilen işler için fiyat farkı hesaplanır.<br />(4) 4735 sayılı Kanunun 10 uncu maddesinde belirtilen mücbir sebep hallerinin gerçekleşmesi veya sözleşmenin ifasının idareden kaynaklanan nedenlerle gecikmesi nedeniyle yükleniciye süre uzatımı verilmiş olması halinde, gerçekleştirilmesi gereken aya göre iş kalemleri ya da iş grupları için uzatılan süre içinde ve bu süreye göre revize edilen iş programına uygun olarak fiyat farkı hesaplanır. Bu kapsamda revize edilen iş programına yüklenicinin kusuru nedeniyle uyulmadığı takdirde ikinci fıkraya göre işlem yapılır.<br />(5) İdarenin talebi olmaksızın yüklenici iş programına nazaran daha fazla iş yaparsa, işin fiilen yapıldığı ay esas alınarak fiyat farkı hesaplanır.<br /><br />İhzarat uygulaması<br />MADDE 8- (1) Birim fiyat üzerinden sözleşmeye bağlanan işler ile karma sözleşmelerde sözleşmenin birim fiyatlı kısmına ait işlerde kullanılan malzemelere ihzarat bedeli ödenebilir. Ancak, ihzarat bedeli ödenecek malzemelerin listesinin ve fiyatlarının ihale dokümanında gösterilmesi zorunludur. Bu malzemeler, iş programında yer alan iş kalemleri için ve o işlere yetecek miktarda ihzar edilir. İş programında öngörülen miktardan fazla ihzar edilmiş malzemelerin fazla kısmına ihzarat bedeli ödenmez.<br />(2) Yukarıda belirtilen şartlara uygun olarak ihzar edilen malzemeler için fiyat farkı hesabı yapılır.<br />(3) Birim fiyatlı işlerde iş programına uygun olarak ihzar edilen malzeme için ihzaratın yapıldığı ay, uygulama ayı kabul edilerek fiyat farkı hesaplanır.<br /><br />Fiyat farkı hesaplanması öngörülmeyen işler<br />MADDE 9- (1) İdari şartname ve sözleşmesinde fiyat farkı verilmesi öngörülmeyen işlerde, 4735 sayılı Kanunun 10 uncu maddesinde belirtilen mücbir sebepler ya da idareden kaynaklanan nedenlerle işin bitim tarihinin süre uzatımı verilmek suretiyle uzatılması halinde, uzatılan süre içinde ve bu süreye göre revize edilen iş programına uygun olarak yapılan iş kalemleri ya da iş grupları için, bu madde hükmüne işin idari şartname ve sözleşmesinde yer verilmiş olması şartıyla bu Esaslara göre fiyat farkı hesaplanır.<br />(2) Fiyat farkı hesabında temel endeks, iş bitim tarihinin içinde bulunduğu aya ait endeksi; güncel endeks ise, revize iş programına göre işin gerçekleştirilmesi gereken aya ait endeksi ifade eder. Temel endeks ve güncel endeks olarak Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun ?ÜFE Genel? sütunundaki sayı esas alınarak fiyat farkı hesaplanır.<br /><br />Çerçeve anlaşma ihalelerinde güncelleme ve fiyat farkı<br />MADDE 10- (1) İsteklinin çerçeve anlaşmaya esas teklifi, münferit sözleşme aşamasında isteklinin teklif vermeye davet edildiği aydan bir önceki aya ait 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun ?ÜFE Genel? sütunundaki sayı çerçeve anlaşma ihalesinin gerçekleştirildiği aya ait sayıya bölünmek suretiyle bulunan katsayı ile güncellenir.<br />(2) Münferit sözleşme kapsamında yapılacak alımlarda fiyat farkı hesaplanmasının öngörülüp öngörülmeyeceği hususunda 6 ncı maddenin birinci fıkrasına göre işlem yapılır.<br /><br /><br />Endeks veya fiyat belirlenmeyen yapım işlerinde fiyat farkı<br />MADDE 11- (1) İdare tarafından ihale dokümanında fiyat farkı verileceği öngörülmesine rağmen sabit katsayılar ile endekslerin belirlenmediği durumlarda, temel endeks ve güncel endeks olarak Türkiye İstatistik Kurumu tarafından aylık yayımlanan 2003=100 Temel Yıllı Üretici Fiyatları Alt Sektörlere Göre Endeks Sonuçları Tablosunun ?ÜFE Genel? sütunundaki sayı esas alınarak fiyat farkı hesaplanır.<br /><br /><br />Katsayı belirleme yetkisi<br />MADDE 12- (1) Bu Esaslara tabi işlerde uygulanmak üzere işlerin niteliğine göre uygulanacak girdi oranlarını belirlemeye Çevre ve Şehircilik Bakanlığı, Enerji ve Tabii Kaynaklar Bakanlığı, Ulaştırma, Denizcilik ve Haberleşme Bakanlığı ile Orman ve Su İşleri Bakanlığının teklifi üzerine Kamu İhale Kurumu yetkilidir. Kurum tarafından belirleme yapılması halinde idareler 5 inci maddedeki formülde kullanılmak üzere Kurum tarafından belirlenen katsayı oranlarını kullanırlar.<br /></div></u></span></b><p/><p class=MsoNormal style="text-align: justify">	<b>14.3.</b> Sözleşmede yer alan fiyat farkına ilişkin esas ve usullerde sözleşme imzalandıktan sonra değişiklik yapılamaz.<p/><p class=MsoNormal style="text-align: justify">					</span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 15 - Alt yükleniciler</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>15.1.</b> İhale konusu işte idarenin onayı ile alt yüklenici çalıştırılabilir.<p/><p class=MsoNormal style="text-align: justify">	<b>15.2.</b> İşin tamamı alt yüklenicilere yaptırılamaz. Alt yüklenicilerin yaptıkları işlerle ilgili sorumluluğu yüklenicinin sorumluluğunu ortadan kaldırmaz.<p/><p class=MsoNormal style="text-align: justify">	<b>15.3.</b> Alt yüklenicilerin çalıştırması ve sorumlulukları konusunda Yapım İşleri Genel Şartnamesinde yer alan hükümler uygulanır.<p/><p class=MsoNormal style="text-align: justify">				</span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">             <b>15.4.</b> Bu madde boş bırakılmıştır.<p/><p class=MsoNormal style="text-align: justify">           </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">             <b>15.5.</b> Bu madde boş bırakılmıştır.<p/><p class=MsoNormal style="text-align: justify">           </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 16 - Montaj, işletmeye alma, eğitim, bakım onarım, yedek parça gibi destek hizmetlerine ait şartlar</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>16.1.</b> Bu madde boş bırakılmıştır.			<p/><p class=MsoNormal style="text-align: justify">				</span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">		        <p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 17 - İşin ve iş yerinin korunması ve sigortalanması</span></b></p><p/><p class=MsoNormal style="text-align: justify">		        <b>17.1.</b> Yüklenici; işyerlerindeki her türlü araç, malzeme, ihzarat, iş ve hizmet makineleri, taşıtlar, tesisler ile sözleşme konusu iş için, işin özellik ve niteliğine göre, işe başlama tarihinden geçici kabul tarihine kadar geçen süre içinde oluşabilecek deprem, su baskını, toprak kayması, fırtına, yangın gibi doğal afetler ile hırsızlık, sabotaj gibi risklere karşı, Yapım İşleri Genel Şartnamesinde yer alan hükümler çerçevesinde "all risk" sigorta yaptırmak zorundadır.<p/><p class=MsoNormal style="text-align: justify">		        <b>17.1.1.</b> Bu madde boş bırakılmıştır.<p/><p class=MsoNormal style="text-align: justify">          </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"> <p/><p class=MsoNormal style="text-align: justify">       <b>17.2.</b> Yüklenici, işin geçici kabul tarihinden kesin kabul tarihine kadar geçecek süreye ilişkin,<p/><p class=MsoNormal style="text-align: justify">       <div class=MsoNormal style='margin-left:35.45pt;text-align:justify'>a) Yüklenicinin sözleşme şartları dahilindeki yükümlülükleri kapsamında eksik ve kusurların giderilmesi amacıyla yaptığı çalışmalar sırasında sigortalı kıymetlere verdiği zarar ve ziyanlar,<p/><p class=MsoNormal style="text-align: justify">       b) Bakım devresi esnasında ortaya çıkan ve inşaat devresinde yüklenicinin sorumlu olduğu bir nedene dayanan ziyan ve hasarlara</div><p/><p class=MsoNormal style="text-align: justify">       karşı genişletilmiş bakım devresi teminatını içeren sigorta yaptırmak zorundadır.<p/><p class=MsoNormal style="text-align: justify">       <b>17.3.</b> Yüklenicinin iş ve iş yerinin korunması ve sigortalanması ile ilgili sorumlulukları konusunda Yapım İşleri Genel Şartnamesinde yer alan hükümler uygulanır.<p/><p class=MsoNormal style="text-align: justify">     </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 18 - Süre uzatımı verilebilecek haller ve şartları</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>18.1.</b> Süre uzatımıyla ilgili hususlarda Yapım İşleri Genel Şartnamesi hükümleri uygulanır.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 19 - Teslim, muayene ve kabul işlemlerine ilişkin şartlar</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>19.1.</b> İşin teslim etme ve teslim alma şekil ve şartları ile kısmi kabul, geçici ve kesin kabul işlemleri Yapım İşleri Genel Şartnamesi hükümlerine göre yürütülür.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<b>19.2.</b> Madde boş bırakılmıştır.		<p/><p class=MsoNormal style="text-align: justify">					</span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 20 - Teminat süresi </span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>20.1.</b> Teminat süresi <b><span class='richtext'><u style='text-underline:dotted'>12</u></span></b> ay olup,  bu süre geçici kabul itibar tarihinden başlar.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 21 - Yapı denetimi ve sorumluluğuna ilişkin şartlar </span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>21.1.</b> İşlerin denetimi, yapı denetim görevlisinin yetkileri, Yüklenici ile yapı denetim görevlisi arasındaki anlaşmazlıklar ve diğer hususlarda Yapım İşleri Genel Şartnamesi hükümleri uygulanır.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">      <p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 22 - Yüklenicilerin/Alt yüklenicilerin sorumluluğu </span></b></p><p/><p class=MsoNormal style="text-align: justify">      <b>22.1.</b> Yüklenici ve alt yüklenicinin sorumluluğuna ilişkin hususlarda Yapım İşleri Genel Şartnamesinde yer alan hükümler uygulanır.<p/><p class=MsoNormal style="text-align: justify">      <b>22.2.</b> Yüklenicinin tüzel kişi olması ve ihalede sunulan iş deneyim belgesinin yüklenicinin yarısından fazla hissesine sahip ve 4734 sayılı Kanuna göre yapılacak ihalelere ilişkin sözleşmelerin yürütülmesi konusunda temsile ve yönetime yetkili ortağına ait olması halinde yüklenici, aşağıda yer alan ifadeyi içeren beyanı her hakedişle birlikte idareye sunar.<p/><p class=MsoNormal style="text-align: justify">		               ...............................(Teklif kapsamında sunulan belgenin düzenleme tarihi yazılacaktır.) tarihli Ortaklık Tespit Belgesinde yer alan bilgilerde bugüne kadar değişiklik olmadığını ve ortağımıza ait iş deneyimini gösteren belgelerin tamamının, başka bir tüzel kişiye kullandırılmadığını taahhüt ederiz.<p/><p class=MsoNormal style="text-align: justify">    </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 23 - Teknik personel, makine, teçhizat ve ekipman bulundurulması</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>23.1.</b> Yüklenici, 23.3. maddesi uyarınca, İdareye bildirdiği teknik personelin onaylandığının kendisine bildirildiği tarihten itibaren aşağıda adet ve unvanları belirtilen teknik personeli iş programına göre iş yerinde bulundurmak zorundadır. <p/><p class=MsoNormal style="text-align: justify">	<b><span class='richtext'><u style='text-underline:dotted'><p>&Ouml;zel teknik şartnamenin &quot;Y&Uuml;KLENİCİ TARAFINDAN İŞ YERİNDE BULUNDURULACAK TEKNİK PERSONEL VE EKİPMAN&quot; başlıklı 4 maddesindeki tabloda yer alan teknik personeller.</p></u></span></b><p/><p class=MsoNormal style="text-align: justify">      <b>23.2.</b> Yüklenici, yukarıda adet ve mesleki unvanı belirtilen teknik personeli idareye süresinde bildirmediği veya iş programına göre iş başında bulundurmadığı takdirde;<p/><p class=MsoNormal style="text-align: justify">      <b><span class='richtext'><u style='text-underline:dotted'><table border="1" cellpadding="1" cellspacing="1" style="font-family:calibri; font-size:8pt; width:100%">	<tbody>		<tr>			<td>1-</td>			<td>(Mesleki &uuml;nvan) i&ccedil;in</td>			<td>TL/G&uuml;n</td>		</tr>		<tr>			<td>&nbsp;</td>			<td>İnşaat M&uuml;hendisi</td>			<td>1000</td>		</tr>		<tr>			<td>&nbsp;</td>			<td>Harita M&uuml;hendisi</td>			<td>800</td>		</tr>		<tr>			<td>&nbsp;</td>			<td>Jeoloji M&uuml;hendisi</td>			<td>800</td>		</tr>		<tr>			<td>&nbsp;</td>			<td>Maden M&uuml;hendisi</td>			<td>800</td>		</tr>		<tr>			<td>&nbsp;</td>			<td>İnşaat Teknikeri</td>			<td>500</td>		</tr>		<tr>			<td>&nbsp;</td>			<td>Topoğraf</td>			<td>500</td>		</tr>	</tbody></table></u></span></b> ceza müteakiben düzenlenecek ilk hakedişten kesilir. Bu cezalar, yüklenicinin cezalı çalıştığı süre içerisinde yukarıdaki yükümlülükleri yerine getirmemesi halinde de uygulanır.<p/><p class=MsoNormal style="text-align: justify">    </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<b>23.3.</b> Teknik personelin idareye bildirilmesi ve iş yerinde bulundurulmasıyla ilgili hususlarda Yapım İşleri Genel Şartnamesinde yer alan hükümler uygulanır. <p/><p class=MsoNormal style="text-align: justify">	<b>23.4.</b> Yüklenici, işe başlama tarihinden itibaren aşağıda cinsi, çeşidi, adedi ve kapasitesi belirtilen makine, teçhizat ve ekipmanı iş programına uygun olarak iş yerinde bulundurmak zorundadır.<p/><p class=MsoNormal style="text-align: justify">	<b><span class='richtext'><u style='text-underline:dotted'><p>Y&uuml;klenici, t&uuml;m bu imalatları işi bitim tarihinde bitirecek şekilde gerekli ve yeterli sayıda uygun makine, te&ccedil;hizat ve ekipmanları bulunduracak gerekirse vardiyalı &ccedil;alışma koşullarını sağlayacaktır</p></u></span></b></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">             <b>23.4.1.</b> Bu madde boş bırakılmıştır.<p/><p class=MsoNormal style="text-align: justify">           </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">       <b>23.5.</b> Yüklenici tarafından ihale konusu işte kullanılacak olan ve bu sözleşmenin eki “Yerli Malı Kullanılacak Makine, Malzeme ve Ekipman Listesi”nde belirtilen makine, malzeme ve ekipmanın yerli malı olması zorunludur. Ancak, her durumda 4734 sayılı Kanunun 63 üncü maddesi uyarınca ilgili Bakanlıklar tarafından belirlenen ve Kurum tarafından ilan edilen listelerde yer alan makine, malzeme ve ekipman yerli malı olacaktır.<p/><p class=MsoNormal style="text-align: justify">     </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">      <b>23.6.</b>  (Mülga 30/09/2020-31260 R.G. / 23. md., yürürlük: 20/10/2020)<p/><p class=MsoNormal style="text-align: justify">    </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 24 - Sözleşmede değişiklik yapılması </span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>24.1.</b> Sözleşme imzalandıktan sonra, sözleşme bedelinin aşılmaması ve İdare ile Yüklenicinin karşılıklı olarak anlaşması kaydıyla, aşağıda belirtilen hususlarda sözleşme hükümlerinde değişiklik yapılabilir:<p/><p class=MsoNormal style="text-align: justify">	<div class=MsoNormal style='margin-left:35.45pt;text-align:justify'>a) İşin yapılma yeri,<p/><p class=MsoNormal style="text-align: justify">	b) İşin süresinden önce yapılması kaydıyla işin süresi ve bu süreye uygun olarak ödeme şartları.</div><p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">      <p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 25 - Gecikme halinde uygulanacak cezalar ve sözleşmenin feshi </span></b></p><p/><p class=MsoNormal style="text-align: justify">      <b>25.1.</b> Bu sözleşmede belirtilen süre uzatımı halleri hariç, Yüklenici sözleşmeye uygun olarak işi süresinde bitirmediği takdirde en az 10 gün süreli yazılı ihtar yapılarak gecikme cezası uygulanır.<p/><p class=MsoNormal style="text-align: justify">    </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">            <b>25.2.</b> Yüklenici sözleşmeye uygun olarak işi süresinde bitirmediği takdirde, gecikilen her gün için ilk sözleşme bedelinin % <b><span class='richtext'><u style='text-underline:dotted'>0,03</u></span></b> (<b><span class='richtext'><u style='text-underline:dotted'>on binde  üç </u></span></b>) oranında gecikme cezası uygulanır. <p/><p class=MsoNormal style="text-align: justify">				</span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">      <b>25.3.</b> İhtarda belirtilen sürenin bitmesine rağmen aynı durumun devam etmesi halinde ayrıca protesto çekmeye gerek kalmaksızın kesin teminatı gelir kaydedilir ve sözleşme feshedilerek hesabı genel hükümlere göre tasfiye edilir.<p/><p class=MsoNormal style="text-align: justify">      <b>25.4.</b> Gecikme cezaları ayrıca protesto çekmeye gerek kalmaksızın Yükleniciye yapılacak hakediş ödemelerinden kesilir. Bu cezaların hakediş ödemelerinden karşılanamaması halinde Yükleniciden ayrıca tahsilat yapılır.<p/><p class=MsoNormal style="text-align: justify">      <b>25.5.</b> Kısmi kabul öngörülmeyen işlerde işin tamamının bitirilmemesi halinde, günlük gecikme cezası sözleşme bedeli üzerinden alınır.<p/><p class=MsoNormal style="text-align: justify">      <b>25.6.</b> Kısmi gecikme cezası uygulanan işlerde, işin tamamının süresinde bitirilmemesi halinde gecikme cezası işin bitirilmeyen kısımları için uygulanır. Bu durumda sözleşme bedelinin tamamı üzerinden gecikme cezası uygulanmaz.<p/><p class=MsoNormal style="text-align: justify">		  <b>25.7.</b> Gecikme halinde uygulanacak cezalar dahil sözleşme kapsamında kesilecek cezaların toplam tutarı, hiçbir durumda, ilk sözleşme bedelinin % 15'ini geçemez. Toplam ceza tutarının, ilk sözleşme bedelinin % 15'ini geçmesi durumunda, bu orana kadar uygulanacak cezanın yanı sıra 4735 sayılı Kanunun 20 nci maddesinin (b) bendine göre protesto çekmeye gerek kalmaksızın kesin teminat gelir kaydedilir ve sözleşme feshedilerek hesabı genel hükümlere göre tasfiye edilir.<p/><p class=MsoNormal style="text-align: justify">    </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 26 - Sözleşmenin feshine ilişkin şartlar</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>26.1.</b> Sözleşmenin İdare veya Yüklenici tarafından feshedilmesine ilişkin şartlar ve sözleşmeye ilişkin diğer hususlarda 4735 Sayılı Kamu İhale Sözleşmeleri Kanunu ile Yapım İşleri Genel Şartnamesi hükümleri uygulanır.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 27 - Sözleşme kapsamında yaptırılabilecek ilave işler, iş eksilişi ve işin tasfiyesi</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>27.1.</b> Sözleşme kapsamında yaptırılabilecek ilave işler, iş eksilişi ve işin tasfiyesine ilişkin hususlarda Yapım İşleri Genel Şartnamesi hükümleri uygulanır.<p/><p class=MsoNormal style="text-align: justify">		</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">      <p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 28 - Sözleşmede bulunmayan veya fiyatı belli olmayan işlere ait birim fiyat tespiti ile iş kalemi miktarının değişmesi</span></b></p><p/><p class=MsoNormal style="text-align: justify">      <b>28.1.</b> Sözleşme ve eklerinde birim fiyatı bulunmayan yeni iş kalemlerinin bedeli, Yapım İşleri Genel Şartnamesi hükümlerine göre hesaplanır.<p/><p class=MsoNormal style="text-align: justify">    </p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">             <b>28.1.1.</b> Bu madde boş bırakılmıştır.<p/><p class=MsoNormal style="text-align: justify">           </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">            <b>28.2.</b> İş kalemi miktarının değişmesi<p/><p class=MsoNormal style="text-align: justify">            <b>28.2.1.</b> Herhangi bir iş kaleminin (sözleşmede yer alan ya da yeni fiyatla sözleşmeye dahil olan iş kalemi) miktarında, işin devamı sırasında sözleşmesinde yer alan iş kalemi için sözleşmede belirtilen iş kalemi miktarında; yeni fiyatla sözleşmeye dahil edilen iş kalemi için ise yeni fiyat oluşturulurken projesine göre tespit edilip idare tarafından onaylanan iş kalemi miktarında % 20’yi aşan artışın meydana gelmesi ve toplam artışın aynı zamanda sözleşme bedelinin yüzde 1’ini geçmesi halinde, artışın sözleşme bedeli içindeki payı nispetinde ilgili iş kalemine ait birim fiyat aşağıda gösterildiği şekilde revize edilir ve bu iş kaleminin yüzde yirmi artışı aşan kısmına revize birim fiyat üzerinden ödeme yapılır.<p/><p class=MsoNormal style="text-align: justify"><p/><p class=MsoNormal style="text-align: justify">            R  =   F  x  [ 1 – (A x F) / S ]<p/><p class=MsoNormal style="text-align: justify">            S  =  Sözleşme bedeli ( TL),<p/><p class=MsoNormal style="text-align: justify">            F  =  İş kaleminin birim fiyatı (TL / ….),<p/><p class=MsoNormal style="text-align: justify">            A  =  İş kaleminde meydana gelen artış miktarı (Adet, mt, m2 vb.),<p/><p class=MsoNormal style="text-align: justify">            R  =  Revize birim fiyat (TL / ….).<p/><p class=MsoNormal style="text-align: justify"><p/><p class=MsoNormal style="text-align: justify">            <b>28.2.2.</b> (28.2.1) maddesi uyarınca hesaplanan revize birim fiyat, o iş kalemine ait resmi analiz ve rayiçler de kullanılarak (%25 oranında kar ve genel gider dahil) hesaplanan birim fiyatı geçemez. İş kalemine ait resmi analiz ve rayiçlerin bulunmaması halinde ise, bu fiyat Yapım İşleri Genel Şartnamesinin 22 nci maddesinin ikinci ve üçüncü fıkraları dikkate alınarak hesaplanır.<p/><p class=MsoNormal style="text-align: justify"><p/><p class=MsoNormal style="text-align: justify">          </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 29 - Yüklenicinin sözleşme konusu iş ile ilgili çalıştıracağı personele ilişkin sorumlulukları</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>29.1.</b> Yüklenicinin sözleşme konusu işte çalıştıracağı personelle ilgili sorumlulukları ve buna ilişkin şartlarda, Yapım İşleri Genel Şartnamesi hükümleri uygulanır.<p/><p class=MsoNormal style="text-align: justify">	<b>29.2.</b> Yüklenici, tüm giderleri kendisine ait olmak üzere çalışanların işle ilgili sağlık ve güvenliğini sağlamakla yükümlüdür. Bu çerçevede; çalışanların iş güvenliği uzmanı, iş yeri hekimi ve zorunlu olması halinde diğer sağlık personeli tarafından sunulan hizmetlerden yararlanması, çalışanların sağlık gözetiminin yapılması, mesleki risklerin önlenmesi, eğitim ve bilgi verilmesi dâhil her türlü tedbirin alınması, organizasyonun yapılması, gerekli araç ve gereçlerin sağlanması, sağlık ve güvenlik tedbirlerinin değişen şartlara uygun hâle getirilmesi ve mevcut durumun iyileştirilmesi, işyerinde alınan iş sağlığı ve güvenliği tedbirlerine uyulup uyulmadığının izlenmesi, denetlenmesi ve uygunsuzlukların giderilmesi gibi iş sağlığı ve güvenliği mevzuatı kapsamında iş sağlığı ve güvenliğine ilişkin alınması zorunlu tedbirler yüklenicinin sorumluluğundadır.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">            <p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 30 - İşin devamı sırasında kesin hesapların yapılması</span></b></p><p/><p class=MsoNormal style="text-align: justify">            <b>30.1.</b> Yüklenici, kesin hesapların zamanında tamamlanmasını teminen işin devamı süresince gerekli elemanı işbaşında bulundurmaya ve her kalem imalatın tamamlanmasını takiben yapı denetim görevlisiyle birlikte hesaplarını hazırlatarak peyderpey tetkik için İdareye vermeye mecburdur.<p/><p class=MsoNormal style="text-align: justify">            <b>30.2.</b> Düzenlenen hakedişlerde; tamamlanmış, ancak kesin hesabı İdareye verilmemiş imalatlara ait tutarların % 5’i karşılığında teminat mektubu alınır ve kesin hesaplar İdare tarafından onaylanmadıkça bu teminat mektubu iade edilmez. Yüklenicinin teminat mektubu vermemesi durumunda ise kesin hesabı İdareye verilmemiş imalatlara ait tutarların % 5’i tutulur ve kesin hesaplar İdare tarafından onaylanmadıkça bu tutarlar ödenmez. İşin devamı sırasında yüklenicinin hakedişlerden yapılan kesintiler karşılığında teminat mektubu vermesi durumunda idare hesabında tutulan tutar yükleniciye ödenir. Kesin hesapların tamamlanması için alınan teminatlar haczedilemez ve bunların üzerine ihtiyati tedbir konulamaz.<p/><p class=MsoNormal style="text-align: justify">          </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">            <p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 31 - Anlaşmazlıkların çözümü</span></b></p><p/><p class=MsoNormal style="text-align: justify">            <b>31.1.</b> Bu sözleşme ve eklerinin uygulanmasından doğabilecek her türlü uyuşmazlığın çözümünde <b><span class='richtext'><u style='text-underline:dotted'>TRABZON</u></span></b> mahkemeleri ve icra daireleri yetkilidir.<p/><p class=MsoNormal style="text-align: justify">          </span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 32 - Hüküm bulunmayan haller</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>32.1.</b> Bu sözleşme ve eklerinde hüküm bulunmayan hallerde, ilgisine göre 4734 sayılı Kanun ve 4735 sayılı Kanun hükümleri, bu Kanunlarda hüküm bulunmaması halinde ise Borçlar Kanunu hükümleri uygulanır.<p/><p class=MsoNormal style="text-align: justify">	</p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 33 - Diğer hususlar</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>33.1.</b> <b><span class='richtext'><u style='text-underline:dotted'><div align='left'>33.1. 237 Sayılı Taşıt Kanunu, 4925 Sayılı Karayolu Taşıma Kanunu, 2007/3 Sayılı Başbakanlık Tasarruf Tedbirleri Genelgesi ile 04.05.2018/312208 ve 01.08.2018/540514 tarih sayılı Genel Müdürlük Tamimlerinde belirtilen hususlara riayet edilmesi gerekmektedir.<br />Mezkûr mevzuat hükümleri gereği edinilecek binek ve station vagon cinsi taşıtların; motor silindir hacmi 1600 cc yi geçmeyecek, yerli muhteva oranı %50 ve üzerinde olacaktır. Taşıt hangi cinste olursa olsun muayyen ve standart tipte lüks ve gösterişten uzak, memleket yollarına elverişli ucuz ve ekonomik olacaktır. Araç yakıtı yüklenici tarafından temin edilecek olup, kesinlikle özel amaçlı işlerde kullanılmayacak, sadece Makam Olur’u alınan işte çalıştırılacak ve bu hususlar takılacak uzaktan takip sistemi ile kontrol edilecektir. Taşıtın edinildiği işin ödenek yetersizliği, doğal afet, genel salgın hastalık vb. mücbir sebeplerden durması halinde proje muhtevası kapsamında temin edilen taşıt yükleniciye işin başlayacağı tarihe kadar iade edilecek ve işin başladığı tarihte tekrar geri alınacaktır. Taşıt; görev emri formu tanzim edilmek suretiyle görevlendirilecek, resmi hizmetle ilgisi bulunmayan kişiler taşıttan yararlandırılmayacaktır. Yukarıda belirtilen hususlara uyulması kaydıyla; Kontrollük faaliyetlerinde kullanılmak üzere aşağıda özellikleri belirtilen taşıt veya taşıtlar idareye teslim edilecektir.<br />Projenin Adı: Giresun-Bulancak Karagöl Göleti İkmali<br />Cinsi: Arazi Binek<br />Adet: 1<br />İmal Yılı: 2020<br />Kapasitesi(Kişi): 4+1<br />Çekiş Tipi: 4x4<br />Şanzıman durumu: Otomatik<br />Şoförlü olup olmadığı: Şoförlü<br />Süresi(Gün): 1000<br /><br />33.2.Yüklenici kontrollük hizmetlerinin yürütülmesi aşamasında Özel Teknik Şartnamede belirtilen özelliklere sahip 2 ADET 27” AİO BİLGİSAYAR'ı yer tesliminin yapıldığı tarihten itibaren 15 (onbeş) gün içerisinde 226.Şube Müdürlüğüne teslim edecek ve işin sonunda İdarenin malı olacaktır.<br /><br />33.3. İşlerin koordinasyonunun sağlaması amacıyla; Bölge Müdürlüğümüzde çalıştırılmak üzere, işin ödenek durumundan bağımsız olarak 2 adet personel, işin geçici kabulü yapılıncaya kadar yüklenici tarafından hazır bulundurulacaktır. Söz konusu personele asgari ücret ve 22 gün üzerinden 25 TL yemek yardımı, 7 TL yol yardımı verilecektir.<br /><br />33.4. İşlerin koordinasyonunun sağlaması amacıyla; Bölge Müdürlüğümüzde çalıştırılmak üzere, işin ödenek durumundan bağımsız olarak 1 adet Laborant, işin geçici kabulü yapılıncaya kadar yüklenici tarafından hazır bulundurulacaktır. Söz konusu personele asgari ücretin 1,5 katı ve 22 gün üzerinden 25 TL yemek yardımı, 7 TL yol yardımı verilecektir.<br /><br /></div></u></span></b></span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><span style='font-weight:normal;'><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 34 - Yürürlük</span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>34.1.</b> Bu sözleşme taraflarca imzalandığı tarihte yürürlüğe girer.			<p/><p class=MsoNormal style="text-align: justify">				</span></p><p class=MsoNormal style="margin-bottom:6.0pt;text-align: justify"><p/><p class=MsoNormal style="text-align: justify">	<p class=MsoNormal style='margin-top:6.0pt;margin-bottom:0.0pt;text-align:justify'><b><span
+style='font-size:12.0pt;color:windowtext'>Madde 35 - Sözleşmenin imzalanması </span></b></p><p/><p class=MsoNormal style="text-align: justify">	<b>35.1.</b> Bu sözleşme <b><span class='richtext'><u style='text-underline:dotted'>35</u></span></b> maddeden ibaret olup, İdare ve Yüklenici tarafından tam olarak okunup anlaşıldıktan sonra .../.../...... tarihinde bir nüsha olarak imza altına alınmıştır. Ayrıca İdare, Yüklenicinin talebi halinde sözleşmenin "aslına uygun idarece onaylı suretini" düzenleyip Yükleniciye verecektir.<p/><p class=MsoNormal style="text-align: justify">	<p/><p class=MsoNormal style="text-align: justify">	İdare                 Yüklenici<p/><p class=MsoNormal style="text-align: justify">	<p/><p class=MsoNormal style="text-align: justify">	<p/><p class=MsoNormal style="text-align: justify">	</p>
+</div>
+
+<div style='mso-element:footer' id=f1> 
+<p class=MsoFooter> 
+<span style='mso-tab-count:2'></span>
+<span style='mso-field-code:" PAGE "'></span>
+ </p>
+ </div>
+                </body>
+                </html>
