@@ -20,15 +20,12 @@ for f in sorted(glob.glob("data/samples/*_sozlesme_tasarisi.doc")):
     print(f"{f.split('/')[-1]:42s} {doc.doc_type.value:18s} "
           f"madde={doc.article_count():3d}  ceza maddeleri: {[a.number for a in ceza]}")
 
-# --- find_by_section denemesi ---
 print("\n=== Bölüm testi ===")
 doc = parse_document("data/samples/2020-108658_idari_sartname.doc")
 
-# Önce belgede hangi bölümler var, görelim
 bolumler = sorted(set(a.section for a in doc.articles if a.section is not None))
 print("Belgedeki bölümler:", bolumler)
 
-# Şimdi senin metodunu deneyelim
 for b in bolumler:
     maddeler = doc.find_by_section(b)
     numaralar = [a.number for a in maddeler]

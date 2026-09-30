@@ -1,14 +1,4 @@
-"""
-PDF yükleme hattı (pdfplumber).
 
-Sorumluluğu dar: bir PDF'ten sayfa sayfa metin çıkarır ve belgenin
-'taranmış mı' olduğunu kestirir. Madde bölme / tür tespiti parser.py'de yapılır;
-bu modül yalnızca ham metni ve sayfa bilgisini üretir.
-
-Taranmış tespiti neden önemli? v1 yalnızca metin tabanlı PDF'leri destekler.
-Taranmış (görüntü) PDF'lerde gömülü metin ya hiç yoktur ya çok azdır; bunları
-OCR'sız işleyemeyiz, o yüzden erkenden tespit edip reddederiz (T07).
-"""
 from __future__ import annotations
 
 from dataclasses import dataclass

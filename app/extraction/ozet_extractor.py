@@ -1,10 +1,4 @@
-"""
-Çok-alanlı extraction: madde metninden TÜM şemayı birden doldurma.
 
-Akış:
-  madde metni → LLM'e 'şu şemaya uygun JSON ver' → JSON metni
-             → Pydantic ile doğrula → güvenli SartnameOzeti nesnesi
-"""
 from __future__ import annotations
 
 from app.extraction.llm import LLMClient
@@ -32,18 +26,15 @@ def extract_ozet(belge_metni: str, llm: LLMClient) -> SartnameOzeti:
     """
     Belge metninden yapılandırılmış özet çıkarır.
 
-    Adımlar:
-      1. Prompt'u kur (hazır: _prompt_kur)
-      2. LLM'e gönder, JSON cevabını al   <- kısmen sen
-      3. JSON'u Pydantic ile doğrula ve nesneye çevir  <- birlikte
+
     """
     # 1. Prompt
     prompt = _prompt_kur(belge_metni)
 
-    # 2. LLM'e gönder (bunu sen yazacaksın: cevabı 'ham_cevap' değişkenine al)
+
     ham_cevap = llm.complete(prompt)
 
-    # 3. JSON metnini doğrula + nesneye çevir.
+
     #    model_validate_json: JSON metnini alır, şemaya karşı doğrular, nesne döndürür.
     ozet = SartnameOzeti.model_validate_json(_json_temizle(ham_cevap))
     return ozet

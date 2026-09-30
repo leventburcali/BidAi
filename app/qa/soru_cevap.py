@@ -1,13 +1,4 @@
-"""
-Soru-cevap (RAG): retrieval + generation birleşimi.
 
-Akış:
-  1. Soruya en yakın maddeleri bul (retrieval — en_yakin_maddeler)
-  2. O maddeleri bir bağlam (context) metnine çevir
-  3. Bağlam + soruyu Claude'a ver, cevap ürettir (generation)
-
-Hem LLM hem embedding dışarıdan gelir (dependency injection).
-"""
 from __future__ import annotations
 
 from app.common.models import ParsedArticle
@@ -34,11 +25,7 @@ def soru_cevapla(
     """
     Belgeye dayanarak soruyu cevaplar (RAG).
 
-    Adımlar:
-      1. En yakın maddeleri bul (retrieval)   <- hazır
-      2. Bağlam metnini kur                     <- hazır
-      3. Prompt'u kur (bağlam + soru)           <- SEN YAZ
-      4. Claude'a gönder, cevabı döndür         <- SEN YAZ
+
     """
     # 1. Retrieval: en yakın maddeleri bul
     ilgili_maddeler = en_yakin_maddeler(maddeler, soru, embedding, n=n)

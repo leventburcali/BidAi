@@ -1,14 +1,4 @@
-"""
-Retrieval: bir soruya, belgedeki anlamca en yakın maddeleri bulma.
 
-Akış:
-  1. Her maddeyi embed et (vektöre çevir)
-  2. Soruyu embed et
-  3. Sorunun vektörünü her madde vektörüyle karşılaştır (kosinüs benzerliği)
-  4. En yüksek benzerlikli N maddeyi döndür
-
-Embedding dışarıdan gelir (dependency injection): testte sahte, gerçekte yerel model.
-"""
 from __future__ import annotations
 
 import numpy as np

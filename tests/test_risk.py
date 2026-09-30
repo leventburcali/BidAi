@@ -40,5 +40,4 @@ def test_markdown_sarmali_temizlenir():
 
     rapor = risk_analiz_et(ozet, fake_llm)
 
-    # SEN YAZ: Markdown sarmalına rağmen 2 risk parse edilmeli
     assert len(rapor.riskler) == 2

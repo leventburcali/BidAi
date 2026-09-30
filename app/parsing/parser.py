@@ -1,19 +1,4 @@
-"""
-Belge ayrıştırma (parsing) modülü — projenin ilk gerçek iş atı.
 
-İki giriş hattı vardır:
-  1. Word-HTML hattı  : '.doc' uzantılı ama aslında ISO-8859-9 kodlu HTML olan
-                        EKAP belgeleri (veri analizinde keşfettik).
-  2. PDF hattı        : gerçek PDF şartnameler (pdfplumber ile).
-
-Çıktı her iki hatta da aynıdır: bir ParsedDocument (madde madde yapılandırılmış).
-
-Akış:
-  load() -> ham metin + (varsa) sayfa bilgisi
-        -> belge türü + şablon varyantı tespiti
-        -> maddelere bölme (regex tabanlı)
-        -> ParsedDocument
-"""
 from __future__ import annotations
 
 import re
@@ -28,10 +13,7 @@ from app.common.models import (
     TemplateVariant,
 )
 
-# --- Madde ve bölüm tespiti için desenler -------------------------------------
-# "Madde 30 - Geçici teminat" veya "Madde 7.5.1 - ..." gibi satırlar.
 ARTICLE_RE = re.compile(r"^\s*Madde\s+(\d+(?:\.\d+)*)\s*[-–]\s*(.*)$", re.IGNORECASE)
-# Roma rakamlı bölüm başlığı: "IV - TEMİNATLARA İLİŞKİN HUSUSLAR"
 SECTION_RE = re.compile(r"^\s*([IVXLC]+)\s*[-–]\s*(.+)$")
 
 
@@ -70,11 +52,6 @@ def _tr_lower(s: str) -> str:
 
 
 def detect_doc_type(lines: list[str]) -> DocumentType:
-    """
-    İlk satırlardaki başlığa bakarak belge türünü tahmin eder.
-    Not: Gerçek başlık 'İŞİNDE UYGULANACAK İDARİ ŞARTNAME' gibi olabildiğinden
-    kelimelerin yan yana olmasına güvenmeyiz; ayrı ayrı varlıklarına bakarız.
-    """
     head = _tr_lower(" ".join(lines[:15]))
     if "sözleşme" in head and "tasarı" in head:
         return DocumentType.SOZLESME_TASARISI
@@ -87,10 +64,7 @@ def detect_doc_type(lines: list[str]) -> DocumentType:
 
 
 def detect_variant(lines: list[str]) -> TemplateVariant:
-    """
-    E-ihale mi fiziki mi? Ayırt edici sinyal: e-ihale belgelerinde
-    'Yeterlik Bilgileri Tablosu' / 'elektronik' dili geçer.
-    """
+
     full = " ".join(lines).casefold()
     if "yeterlik bilgileri tablosu" in full or "e-teklif" in full or "elektronik ortamda" in full:
         return TemplateVariant.E_IHALE
@@ -191,10 +165,7 @@ def _parse_pdf(path: Path) -> ParsedDocument:
 
 # --- Genel yükleyici ----------------------------------------------------------
 def parse_document(path: str | Path) -> ParsedDocument:
-    """
-    Bir belgeyi (Word-HTML veya PDF) ayrıştırıp ParsedDocument döndürür.
-    PDF hattı şimdilik yer tutucu — bir sonraki adımda pdfplumber ile dolduracağız.
-    """
+
     path = Path(path)
     raw = path.read_bytes()
     warnings: list[str] = []

@@ -23,11 +23,9 @@ class ClaudeLLMClient:
     """LLMClient arayüzünü gerçek Claude ile karşılayan implementasyon."""
 
     def __init__(self, model: str = "claude-haiku-4-5"):
-        # anthropic kütüphanesini fonksiyon/init içinde import ediyoruz ki
-        # bu paket kurulu olmasa bile modül import edilebilsin (testler için).
+
         from anthropic import Anthropic
 
-        # API anahtarını ORTAMDAN oku (koda gömme!). Yoksa anlamlı hata ver.
         api_key = os.environ.get("ANTHROPIC_API_KEY")
         if not api_key:
             raise RuntimeError(
@@ -46,5 +44,4 @@ class ClaudeLLMClient:
             max_tokens=4096,
             messages=[{"role": "user", "content": prompt}],
         )
-        # Claude'un cevabı içerik bloklarında gelir; ilk metin bloğunu alıyoruz.
         return response.content[0].text

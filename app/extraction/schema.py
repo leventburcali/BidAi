@@ -1,13 +1,4 @@
-"""
-Extraction şeması (Pydantic modelleri).
 
-Bunlar LLM'in dolduracağı 'formun alanları'. Key'ler sabit (biz belirledik),
-değerleri LLM belgeden çıkaracak. Pydantic, LLM'in döndürdüğü JSON'u bu şemaya
-karşı doğrulayıp güvenli bir Python nesnesine çevirir.
-
-Not: Her alan 'str | None' — çünkü bilgi belgede bulunamayabilir. Bulunamazsa
-None (yok), uydurma değil. Bu, projenin en kritik tasarım kararı.
-"""
 from __future__ import annotations
 from typing import Optional
 from pydantic import BaseModel, ConfigDict
@@ -28,11 +19,7 @@ class IdareBilgisi(BaseModel):
     ikn: Optional[str] = None
 
 class SartnameOzeti(BaseModel):
-    """Bir şartnameden çıkarılan yapılandırılmış özet.
 
-    Şimdilik birkaç temel alanla başlıyoruz; veri analizindeki tam şemaya
-    (yeterlilik kriterleri, ceza maddeleri vb.) adım adım genişleteceğiz.
-    """
     model_config = ConfigDict(coerce_numbers_to_str=True)
     # İhale kimliği ve temel bilgiler
     ihale_konusu: Optional[str] = None        # işin adı / konusu

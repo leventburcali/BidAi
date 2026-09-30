@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-load_dotenv()  # ..env dosyasını okuyup ortam değişkeni yapar
+load_dotenv()
 
 from app.parsing.parser import parse_document
 from app.extraction.claude_client import ClaudeLLMClient

@@ -1,11 +1,6 @@
 """
 Extraction mantığı: madde metninden yapılandırılmış bilgi çıkarma.
 
-Şimdilik tek bir alanla başlıyoruz (geçici teminat oranı), mantığı oturtmak için.
-Sonra bunu şemaya (birden çok alan) genişleteceğiz.
-
-Önemli tasarım: LLM 'dışarıdan' parametre olarak gelir (dependency injection).
-Böylece testte sahte, gerçekte Claude verilebilir; fonksiyon farkı bilmez.
 """
 from __future__ import annotations
 

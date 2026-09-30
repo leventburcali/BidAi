@@ -35,8 +35,6 @@ app = FastAPI(
 )
 
 
-# --- Request modelleri (gelen verinin şeması) ---
-
 
 class OzetIstegi(BaseModel):
     """POST /ozet'e gelen veri: bir belge metni."""
@@ -59,7 +57,7 @@ def get_embedding() -> LocalEmbeddingClient:
 
 @app.get("/health")
 def health():
-    """Sağlık kontrolü: API ayakta mı?"""
+
     return {"status": "ok"}
 
 
@@ -77,9 +75,8 @@ def ozet_cikar(istek: OzetIstegi, claude: ClaudeLLMClient = Depends(get_claude))
         ozet = extract_ozet(istek.belge_metni, claude)
         return ozet
     except HTTPException:
-        raise  # HTTPException'ı olduğu gibi geçir (yukarıdaki 422 gibi)
+        raise
     except Exception as e:
-        # Beklenmedik hata (Claude hatası, JSON hatası vs.)
         raise HTTPException(
             status_code=500,
             detail=f"Özet çıkarılırken hata oluştu: {str(e)}",

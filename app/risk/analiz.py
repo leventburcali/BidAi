@@ -30,9 +30,7 @@ def _json_temizle(metin: str) -> str:
 
 def _prompt_kur(ozet: SartnameOzeti) -> str:
     """Risk analizi prompt'unu kurar: özeti ve risk şemasını Claude'a verir."""
-    # Özeti JSON metnine çevir (Claude'a girdi olarak vereceğiz)
     ozet_json = ozet.model_dump_json(indent=2)
-    # Risk şemasını otomatik üret (extract_ozet'teki gibi)
     risk_sema = json.dumps(RiskRaporu.model_json_schema(), ensure_ascii=False, indent=2)
 
     return (
@@ -52,15 +50,14 @@ def risk_analiz_et(ozet: SartnameOzeti, llm: LLMClient) -> RiskRaporu:
 
     Adımlar:
       1. Prompt'u kur (hazır: _prompt_kur)
-      2. Claude'a gönder, cevabı al       <- SEN YAZ
-      3. JSON'u temizle + RiskRaporu'ya doğrula, döndür   <- SEN YAZ
+      2. Claude'a gönder, cevabı al
+      3. JSON'u temizle + RiskRaporu'ya doğrula, döndür
     """
-    # 1. Prompt
+
     prompt = _prompt_kur(ozet)
 
-    # 2. Claude'a gönder (SEN YAZ: cevabı 'ham_cevap' değişkenine al)
+
     ham_cevap = llm.complete(prompt)
 
-    # 3. Temizle + doğrula + döndür (SEN YAZ)
-    # İpucu: RiskRaporu.model_validate_json(_json_temizle(ham_cevap))
+
     return  RiskRaporu.model_validate_json(_json_temizle(ham_cevap))
