@@ -23,6 +23,7 @@ from fastapi import FastAPI, UploadFile, File, Form
 from app.parsing.parser import parse_document
 from app.qa.embedding import LocalEmbeddingClient
 from app.qa.soru_cevap import soru_cevapla
+from app.agent.danisman import Danisman
 import tempfile
 import os
 from fastapi import HTTPException
@@ -135,3 +136,14 @@ def soru_sor(dosya: UploadFile = File(...), soru: str = Form(...), claude: Claud
         }
     finally:
         os.remove(gecici_yol)
+
+class DanisIstegi(BaseModel):
+    belge_metni: str
+    soru: str
+
+@app.post("/danis")
+def danis(istek: DanisIstegi):
+
+   danisman =  Danisman()
+   cevap = danisman.sor(istek.soru + "\n\n" + istek.belge_metni)
+   return {"cevap":cevap}
