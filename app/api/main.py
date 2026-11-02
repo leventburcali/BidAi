@@ -142,8 +142,27 @@ class DanisIstegi(BaseModel):
     soru: str
 
 @app.post("/danis")
-def danis(istek: DanisIstegi):
+def danis(dosya: UploadFile = File(...), soru: str = Form(...)):
+    """Bir şartname dosyası yükle + soru sor; belgeye dayalı agentic cevap al ."""
+    if not soru or len(soru.strip()) < 3:
+        raise HTTPException(status_code=422, detail="Soru boş veya çok kısa.")
 
-   danisman =  Danisman()
-   cevap = danisman.sor(istek.soru + "\n\n" + istek.belge_metni)
-   return {"cevap":cevap}
+    uzanti = os.path.splitext(dosya.filename)[1]  # ".doc" gibi
+    with tempfile.NamedTemporaryFile(delete=False, suffix=uzanti) as tmp:
+        tmp.write(dosya.file.read())  # yüklenen içeriği geçici dosyaya yaz
+        gecici_yol = tmp.name
+    try:
+        doc = parse_document(gecici_yol)
+
+        if not doc.articles:
+            raise HTTPException(
+                status_code=422,
+                detail="Bu belge işlenemedi. Desteklenen belgeler: yapım işi idari şartnamesi ve sözleşme tasarısı. Teknik şartnameler ve taranmış PDF'ler henüz desteklenmiyor.",
+            )
+
+        danisman = Danisman()
+        cevap = danisman.sor(soru + "\n\n" + doc.raw_text)
+        return {"cevap": cevap}
+
+    finally:
+        os.remove(gecici_yol)
