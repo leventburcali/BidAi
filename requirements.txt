@@ -11,3 +11,5 @@ python-multipart==0.0.20
 pytest==8.4.2
 langgraph
 langchain-anthropic
+langfuse
+chromadb
