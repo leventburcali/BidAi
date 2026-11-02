@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 
 from app.extraction.claude_client import ClaudeLLMClient
 from app.risk.analiz import risk_analiz_et
+from app.qa.chroma_store import sorgula, indexle
 
 load_dotenv()
 from langchain_core.tools import tool
@@ -39,37 +40,23 @@ class Danisman:
         api_key = os.environ.get("ANTHROPIC_API_KEY")
         if not api_key:
             raise RuntimeError("ANTHROPIC_API_KEY bulunamadı. Anahtarı .env dosyasına ekleyin.")
+        from app.api.main import get_embedding
+        self.llm = ChatAnthropic(model=model, temperature=0)
 
-        llm = ChatAnthropic(model=model, temperature=0)
-
-        self.agent = create_react_agent(llm, [teminat_hesapla,ozet_cikar, risk_analiz])
-
-
-    def sor(self, soru:str)->str:
-
-        answer = self.agent.invoke({"messages": [{"role": "user", "content": soru}]})
-
-        return answer["messages"][-1].content
+        self.embedding = get_embedding()
 
 
-if __name__ == "__main__":
-    d = Danisman()
-    sartname = """KAMU İHALE İDARİ ŞARTNAMESİ
+    def degerlendir(self, articles, soru:str)->str:
+        col = indexle(articles, self.embedding)
+        madde_ara = madde_ara_yap(col, self.embedding)
+        agent = create_react_agent(self.llm, [teminat_hesapla, ozet_cikar,risk_analiz,madde_ara])
+        sonuc = agent.invoke({"messages": [{"role": "user", "content": soru}]})
+        return sonuc["messages"][-1].content
 
-İhale Kayıt Numarası (İKN): 2026/1478562
-İdarenin Adı: T.C. Sağlık Bakanlığı Ankara İl Sağlık Müdürlüğü
-İşin Adı: 12 (on iki) aylık malzemeli genel temizlik hizmeti alımı
-İhale Usulü: Açık ihale usulü (4734 sayılı Kanun 19. madde)
-
-Tekliflerin Geçerlilik Süresi: İhale tarihinden itibaren 90 (doksan) takvim günüdür.
-Geçici Teminat: İstekliler teklif ettikleri bedelin %3'ünden az olmamak üzere geçici teminat vereceklerdir.
-Kesin Teminat: İhale bedelinin %6'sı oranında kesin teminat alınır.
-
-İş Deneyim Belgesi: Son 5 yıl içinde teklif edilen bedelin %25'inden az olmamak üzere tek sözleşmeye ilişkin iş deneyimi.
-Kalite Belgesi: İstekliler ISO 9001 Kalite Yönetim Sistemi belgesini"""
-    soru = (
-            "Bu şartnameyi benim için değerlendir: kısa bir özet çıkar, "
-            "en önemli riskleri söyle, ve teklif bedelim 2.000.000 TL olursa "
-            "geçici teminat tutarı ne olur?\n\n" + sartname
-    )
-    print(d.sor(soru))
+def madde_ara_yap(col, embedding):
+    @tool
+    def madde_ara(soru: str) -> str:
+        """ belgede soruya en ilgili maddeleri bulup döndürür"""
+        sonuc = sorgula(col, soru, embedding)
+        return "\n\n".join(sonuc)
+    return madde_ara

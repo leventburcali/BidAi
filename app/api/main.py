@@ -161,7 +161,7 @@ def danis(dosya: UploadFile = File(...), soru: str = Form(...)):
             )
 
         danisman = Danisman()
-        cevap = danisman.sor(soru + "\n\n" + doc.raw_text)
+        cevap = danisman.degerlendir(doc.articles, soru + "\n\n" + doc.raw_text)
         return {"cevap": cevap}
 
     finally:
