@@ -50,7 +50,7 @@ class Danisman:
 
 
     def degerlendir(self, articles, soru:str)->str:
-        col = indexle(articles, self.embedding)
+        col = indexle(articles, self.embedding) 
         madde_ara = madde_ara_yap(col, self.embedding)
         agent = create_react_agent(self.llm, [teminat_hesapla, ozet_cikar,risk_analiz,madde_ara])
         handler = CallbackHandler()
