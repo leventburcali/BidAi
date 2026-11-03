@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+from langgraph_sdk import get_client
 
 from app.extraction.claude_client import ClaudeLLMClient
 from app.risk.analiz import risk_analiz_et
@@ -11,6 +12,7 @@ from langchain_anthropic import ChatAnthropic
 from langgraph.prebuilt import create_react_agent
 from app.extraction import ozet_extractor
 from langfuse.langchain import CallbackHandler
+from langfuse import get_client
 
 @tool()
 def teminat_hesapla(teklif_bedeli:float, oran_yuzde: float) -> float:
@@ -52,11 +54,12 @@ class Danisman:
         madde_ara = madde_ara_yap(col, self.embedding)
         agent = create_react_agent(self.llm, [teminat_hesapla, ozet_cikar,risk_analiz,madde_ara])
         handler = CallbackHandler()
-        
+
         sonuc = agent.invoke(
             {"messages": [{"role": "user", "content": soru}]},
             config={"callbacks": [handler]},
         )
+        get_client().flush()
         return sonuc["messages"][-1].content
 
 def madde_ara_yap(col, embedding):
