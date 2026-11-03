@@ -37,4 +37,4 @@ jobs:
             --memory 4Gi \
             --cpu 2 \
             --timeout 600 \
-            --update-env-vars ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
+            --update-env-vars ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }},LANGFUSE_PUBLIC_KEY=${{ secrets.LANGFUSE_PUBLIC_KEY }},LANGFUSE_SECRET_KEY=${{ secrets.LANGFUSE_SECRET_KEY }},LANGFUSE_HOST=${{ secrets.LANGFUSE_HOST }}
